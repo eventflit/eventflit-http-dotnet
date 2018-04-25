@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Eventflit, Phil Leggetter, John McLoughlin</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/eventflit/eventflit-http-dotnet/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/eventflit/eventflit-dotnet-server</projectUrl>
+    <iconUrl>https://eventflit.com/static_logos/64x64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>See https://github.com/eventflit/eventflit-http-dotnet/blob/master/CHANGELOG.md for full details</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>eventflit realtime</tags>
+    <summary>Interact with the Eventflit HTTP API</summary>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\README.md" target="" />
+    <file src="..\CHANGELOG.md" target="" />
+    <file src="..\EventflitServer.Core\bin\$configuration$\netStandard1.6\EventflitServer.Core.dll" target="lib\netStandard1.6\EventflitServer.Core.dll" />
+  </files>
+</package>
